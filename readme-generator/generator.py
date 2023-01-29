@@ -2,16 +2,19 @@ from urllib.parse import quote
 import os
 import sys
 import re
+from dotenv import load_dotenv
 
+
+load_dotenv()
 if __name__ == '__main__':
 
     if len(sys.argv) == 1:
         # НАЧАЛО ЧАСТИ, КОТОРУЮ НУЖНО ИЗМЕНИТЬ
 
-        githubName = "ваш github ник"
-        repoName = "название вашего репозитория"
-        header = "заголовок вашего сайта"
-        fileExtension = ".jpg"
+        githubName = "itmofun"
+        repoName = "card-site-checker"
+        header = "header"
+        fileExtension = ".png"
 
         # КОНЕЦ ЧАСТИ, КОТОРУЮ НУЖНО ИЗМЕНИТЬ
     elif len(sys.argv) == 5:
