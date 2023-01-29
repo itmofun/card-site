@@ -12,7 +12,7 @@ if __name__ == '__main__':
         # НАЧАЛО ЧАСТИ, КОТОРУЮ НУЖНО ИЗМЕНИТЬ
 
         githubName = "itmofun"
-        repoName = "card-site-checker"
+        repoName = "card-site"
         header = "header"
         fileExtension = ".png"
 
